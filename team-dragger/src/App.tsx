@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 function App() {
-  const [teams, setTeams] = useState([
+  const [teams, ] = useState([
     { id: 'team-a', name: 'Team A', members: ['Alice', 'Bob'] },
     { id: 'team-b', name: 'Team B', members: ['Charlie', 'Dave'] }
   ])

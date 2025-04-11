@@ -1,4 +1,4 @@
-# Logs
+# --- すでにある内容（変更しない） ---
 logs
 *.log
 npm-debug.log*
@@ -22,3 +22,30 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- ここから追記する内容（今回の解決ポイント） ---
+# macOSやシステム系
+.Trash/
+.Library/
+.cache/
+.matplotlib/
+.zsh_history
+.zsh_sessions/
+.zshrc
+
+# 大容量や別プロジェクトの不要物
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+anythingv4-vae/
+anythingv4-vaecurl/
+stable-diffusion-webui/
+stable-diffusion-webui-forge/
+execmate_pyside6_env/
+iMyFone MagicMic/
